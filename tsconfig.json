@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES6", // Compile to ES6
+    "module": "Node16", // Output ES module syntax
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES Modules
+    "outDir": "./", // Output files in the 'dist' folder
+    "rootDir": "./", // Specify the root folder for TypeScript files
+    "noImplicitAny": true, // Raise error on expressions with 'any' type
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node16",
+  },
+  "include": ["*.ts", "index.tsx"], // Include all .ts files in the root
+  "exclude": ["node_modules"] // Exclude the 'node_modules' folder
+}

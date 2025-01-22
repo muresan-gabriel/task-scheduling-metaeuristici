@@ -1,0 +1,41 @@
+{
+  "name": "task-scheduling-metaeuristici",
+  "version": "1.0.0",
+  "description": "Proiect realizat pentru materia de algoritmi metaeuristici, 2025, IIS.",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dataset": "node creare-dataset.js",
+    "start": "node index.js",
+    "build": "npx tsc",
+    "dev": "npx tsc && node index.js",
+    "procesare:completa": "node cls.js && npx tsc && node cls.js && node creare-dataset.js && python3 main.py && node index.js"
+  },
+  "author": "Cătălina Dancs, Gabriel Mureșan",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "@typescript-eslint/eslint-plugin": "^8.21.0",
+    "@typescript-eslint/parser": "^8.21.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.9.1",
+    "csv-parse": "^5.6.0",
+    "fs": "^0.0.1-security",
+    "genetic-js": "^0.1.14",
+    "ink": "^5.1.0",
+    "ink-select-input": "^6.0.0",
+    "papaparse": "^5.5.1",
+    "random-words": "^2.0.1",
+    "react": "^18.3.1",
+    "ts-node": "^10.9.2",
+    "unique-names-generator": "^4.7.1"
+  }
+}
