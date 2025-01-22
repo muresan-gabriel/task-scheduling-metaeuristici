@@ -54,8 +54,8 @@ const tasksCsvWithHeader = `Task_ID,Processing_Time,Required_RAM,Required_CPU,Re
 const machinesCsvWithHeader = `Machine_ID,Machine_Name,Total_RAM,Total_CPU,Total_Storage\n${machinesCsv}`;
 
 // File paths
-const tasksFilePath = path.join(__dirname, 'data/Cloud_Task_Scheduling_Tasks.csv');
-const machinesFilePath = path.join(__dirname, 'data/Cloud_Task_Scheduling_Machines.csv');
+const tasksFilePath = path.join(__dirname, '../data/Cloud_Task_Scheduling_Tasks.csv');
+const machinesFilePath = path.join(__dirname, '../data/Cloud_Task_Scheduling_Machines.csv');
 
 // Write files
 fs.mkdirSync(path.join(__dirname, 'data'), { recursive: true });

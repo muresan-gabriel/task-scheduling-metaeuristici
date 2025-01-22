@@ -10,7 +10,7 @@
     "start": "node index.js",
     "build": "npx tsc",
     "dev": "npx tsc && node index.js",
-    "procesare:completa": "node cls.js && npx tsc && node cls.js && node creare-dataset.js && python3 main.py && node index.js"
+    "procesare:completa": "node ./utils/cls.js && npx tsc && node ./utils/cls.js && node ./utils/creare-dataset.js && python3 main.py && node index.js"
   },
   "author": "Cătălina Dancs, Gabriel Mureșan",
   "license": "ISC",
